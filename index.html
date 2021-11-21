@@ -21,25 +21,27 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   
-  
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body background="bi1.jpg" >
   
   <center>
-    
-    <h1 class="btn btn-info heading">AI Object Finder<br>The input name which you will give should match the names present in the coco model then only it will detect</h1>
-    <br>
-    <br>
-    <marquee class="king">WELCOME TO THE Object Finder ROOM</marquee>
-    <br>
-    <h2 class="btn btn-danger " id=""></h2>
-    &nbsp;&nbsp;&nbsp;
-    <h2 class="btn btn-success" id=""></h2>
-    <br><br>
-  </center>
 
+     <p class="btn btn-primary heading"> Ai  Object  Finder<br><p class="btn btn-warning">The input name which you will give should match the names persent in coco SSD model then only it will  detect</p> </p>
+     <br>
+    <p class="ob"> Object Name :</p>
+    <input type="text" id="object_name_input" class="form-control" Placeholder="Enter  Object  Name">
+    <br>
+    <br>
+    <button onclick="start()" id="start" class="btn btn-danger">&nbsp;S&nbsp;T&nbsp;A&nbsp;R&nbsp;T&nbsp;</button>
+    <br><br>
+     <h2 class="btn btn-info" id="object_status"></h2>
+     &nbsp;&nbsp;&nbsp;
+     <h2 class="btn btn-success" id="object_name"></h2>
+     <br><br>
+  </center>
+  <div class="copy_right_footer">DEVELOPED BY YUVRAJ</div>
   <script src="main.js"></script>
 
 </body>
